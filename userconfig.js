@@ -10,7 +10,7 @@ const CONFIG = new Config({
     scale: 'C'
   },
   clock: {
-    format: 'H:M:s',
+    format: 'do B Y - H:M:s',
     iconColor: '#ff7b95'
   },
   search: {
