@@ -1,10 +1,10 @@
 const CONFIG = new Config({
   crypto: {
     coin: 'ETH',
-    currency: 'USD',
+    currency: 'MUR',
     refreshIn: 10
   },
-  overrideStorage: true, // override localStorage with fixed userconfig values
+  overrideStorage: true,
   temperature: {
     location: 'Mahebourg, Mauritius',
     scale: 'C'
@@ -30,76 +30,72 @@ const CONFIG = new Config({
     {
       name: 'boards',
       background_url: 'src/img/banners/bg-1.gif',
-      categories: [{
-        name: 'fun',
-        links: [
-          {
-            name: '/github/',
-            url: 'https://github.com/',
-            icon: 'brand-github'
-          },
-          {
-            name: '/WallPapers/',
-            url: 'https://wallhaven.cc/',
-            icon: 'wall'
-          },
-          {
-            name: '/musicForProgramming/',
-            url: 'https://musicforprogramming.net',
-            icon: 'music',
-            icon_color: '#64876d'
-          },
-          {
-            name: '/Grok/',
-            url: 'https://grok.com/',
-            icon: 'ai'
-          },
-          {
-            name: '/keybr/',
-            url: 'https://keybr.com/',
-            icon: 'keyboard',
-            icon_color: '#8b647b'
-          },
-          {
-            name: '/try hack me/',
-            url: 'https://tryhackme.com/',
-            icon: 'brand-hackerrank'
-          },
-          {
-            name: '/hack tricks/',
-            url: 'https://book.hacktricks.wiki/en/index.html',
-            icon: 'brand-hackerrank'
-          }
-        ]
-      },
-      {
-        name: 'Comfy',
-        links: [
-          {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
-          },
-          {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
-          }
-        ]
-      },
-      {
-        name: 'Technology',
-        links: [
-          {
-            name: '/github/',
-            url: 'https://github.com/',
+      categories: [
+        {
+          name: 'Technology',
+          links: [
+            {
+              name: '/github/',
+              url: 'https://github.com/',
               icon: 'brand-github'
-          },
-          {
-            name: '/reddit/',
-            url: 'https://www.reddit.com',
-            icon: 'brand-reddit'
-          }
-        ]
-      }
+            },
+            {
+              name: '/reddit/',
+              url: 'https://www.reddit.com',
+              icon: 'brand-reddit'
+            }
+          ]
+        },
+        {
+          name: 'fun',
+          links: [
+            {
+              name: '/WallPapers/',
+              url: 'https://wallhaven.cc/',
+              icon: 'wall'
+            },
+            {
+              name: '/musicForProgramming/',
+              url: 'https://musicforprogramming.net',
+              icon: 'music',
+              icon_color: '#64876d'
+            },
+            {
+              name: '/Grok/',
+              url: 'https://grok.com/',
+              icon: 'alt'
+            },
+            {
+              name: '/keybr/',
+              url: 'https://keybr.com/',
+              icon: 'keyboard',
+              icon_color: '#8b647b'
+            },
+            {
+              name: '/try hack me/',
+              url: 'https://tryhackme.com/',
+              icon: 'brand-hackerrank'
+            },
+            {
+              name: '/hack tricks/',
+              url: 'https://book.hacktricks.wiki/en/index.html',
+              icon: 'brand-hackerrank'
+            }
+          ]
+        },
+        {
+          name: 'Comfy',
+          links: [
+            {
+              name: '/lounge/',
+              url: 'https://sushigirl.us/lounge/catalog.html'
+            },
+            {
+              name: '/comfy/',
+              url: 'https://anon.cafe/comfy/catalog.html'
+            }
+          ]
+        }
       ]
     },
     {
@@ -122,7 +118,7 @@ const CONFIG = new Config({
             {
               url: 'https://r-a-d.io/',
               icon: 'radio'
-            },
+            }
           ]
         },
         {
@@ -135,7 +131,7 @@ const CONFIG = new Config({
             },
             {
               name: '/mu/',
-              url: 'https://boards.4channel.org/mu/',
+              url: 'https://boards.4channel.org/mu/'
             }
           ]
         }
@@ -183,7 +179,7 @@ const CONFIG = new Config({
             },
             {
               name: 'mataroa.blog',
-              url: 'https://collection.mataroa.blog',
+              url: 'https://collection.mataroa.blog'
             }
           ]
         },
@@ -204,5 +200,6 @@ const CONFIG = new Config({
           ]
         }
       ]
-    }]
+    }
+  ]
 });
