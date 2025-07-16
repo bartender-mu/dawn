@@ -34,30 +34,36 @@ const CONFIG = new Config({
         name: 'fun',
         links: [
           {
-            url: 'https://wallhaven.cc/',
             name: '/WallPapers/'
+            url: 'https://wallhaven.cc/',
+            icon: 'wall'
           },
           {
             name: '/musicForProgramming/',
             url: 'https://musicforprogramming.net',
-            icon: 'leaf',
+            icon: 'music',
             icon_color: '#64876d'
           },
           {
             name: '/Grok/',
             url: 'https://grok.com/',
-            icon: 'book'
+            icon: 'ai'
           },
           {
             name: '/keybr/',
             url: 'https://keybr.com/',
-            icon: 'device-gamepad',
+            icon: 'keyboard',
             icon_color: '#8b647b'
           },
           {
             name: '/try hack me/',
             url: 'https://tryhackme.com/',
-            icon: ''
+            icon: 'brand-hackerrank'
+          },
+          {
+            name: '/hack tricks/',
+            url: 'https://book.hacktricks.wiki/en/index.html',
+            icon: 'brand-hackerrank'
           }
         ]
       },
@@ -78,25 +84,14 @@ const CONFIG = new Config({
         name: 'Technology',
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: '/github/',
+            url: 'https://github.com/',
+              icon: 'brand-github'
           },
           {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
-          },
-          {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
-          },
-          {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
-          },
-          {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
+            name: '/reddit/',
+            url: 'https://www.reddit.com',
+            icon: 'brand-reddit'
           }
         ]
       }
