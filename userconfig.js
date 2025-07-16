@@ -34,7 +34,7 @@ const CONFIG = new Config({
         name: 'fun',
         links: [
           {
-            name: '/WallPapers/'
+            name: '/WallPapers/',
             url: 'https://wallhaven.cc/',
             icon: 'wall'
           },
@@ -149,7 +149,8 @@ const CONFIG = new Config({
             },
             {
               name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
+              url: 'https://www.reddit.com/r/unixporn/',
+              icon: 'alien'
             },
             {
               name: 'r/mechkbds/',
