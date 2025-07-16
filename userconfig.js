@@ -34,11 +34,11 @@ const CONFIG = new Config({
         name: 'fun',
         links: [
           {
-            url: 'https://app.raindrop.io/',
-            name: '/raindrop/'
+            url: 'https://wallhaven.cc/',
+            name: '/WallPapers/'
           },
           {
-            name: '/musicForProgramming();/',
+            name: '/musicForProgramming/',
             url: 'https://musicforprogramming.net',
             icon: 'leaf',
             icon_color: '#64876d'
@@ -49,15 +49,15 @@ const CONFIG = new Config({
             icon: 'book'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
+            name: '/keybr/',
+            url: 'https://keybr.com/',
             icon: 'device-gamepad',
             icon_color: '#8b647b'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
+            name: '/try hack me/',
+            url: 'https://tryhackme.com/',
+            icon: ''
           }
         ]
       },
