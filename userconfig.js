@@ -43,6 +43,11 @@ const CONFIG = new Config({
               name: '/reddit/',
               url: 'https://www.reddit.com',
               icon: 'brand-reddit'
+            },
+            {
+              name: '/gmail/',
+              url: 'https://mail.google.com',
+              icon: 'brand-gmail'
             }
           ]
         },
