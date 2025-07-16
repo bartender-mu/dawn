@@ -34,6 +34,11 @@ const CONFIG = new Config({
         name: 'fun',
         links: [
           {
+            name: '/github/',
+            url: 'https://github.com/',
+            icon: 'brand-github'
+          },
+          {
             name: '/WallPapers/',
             url: 'https://wallhaven.cc/',
             icon: 'wall'
